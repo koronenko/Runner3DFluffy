@@ -15,11 +15,11 @@ C:/Users/Nastya/Documents/Runner3DFluffy/Runner3DFluffy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56494
+62235
 Successfully changed project path to: C:/Users/Nastya/Documents/Runner3DFluffy/Runner3DFluffy
 C:/Users/Nastya/Documents/Runner3DFluffy/Runner3DFluffy
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -35,7 +35,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -43,93 +43,93 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.009453 seconds.
+Registered in 0.004153 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 34.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.923 seconds
+- Completed reload, in  1.521 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5923ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (1521ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (578ms)
-			LoadAssemblies (75ms)
+		EndReloadAssembly (463ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (203ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (173ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016255 seconds.
+Registered in 0.005316 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.500 seconds
+- Completed reload, in  1.269 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1501ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1239ms)
-			LoadAssemblies (148ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1040ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
+			SetupTypeCache (325ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (553ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (466ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (412ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (349ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+Unloading 1407 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.3 MB.
+System memory in use after: 65.4 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1829.
-Total: 2.949700 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.052400 ms MarkObjects: 2.627200 ms  DeleteObjects: 0.117200 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1843.
+Total: 2.949400 ms (FindLiveObjects: 0.138700 ms CreateObjectMapping: 0.044800 ms MarkObjects: 2.659100 ms  DeleteObjects: 0.105600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -143,49 +143,532 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts
-  artifactKey: Guid(03f83096071c8fe41bcc994232dcf122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(03f83096071c8fe41bcc994232dcf122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a866d213d38ab9eb502d9d3064e492a4') in 0.006435 seconds 
-  Import took 0.010097 seconds .
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Green.mat
+  artifactKey: Guid(efe6fc25350958c479cd9fcde7e565f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Green.mat using Guid(efe6fc25350958c479cd9fcde7e565f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4bd1765430f7afe922a9576db85874') in 0.224433 seconds 
+  Import took 0.228004 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.519407 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.002766 seconds 
-  Import took 0.006935 seconds .
+  Time since last request: 0.000294 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Material.mat
+  artifactKey: Guid(a5ab27f24d140594197755b8c9ee7179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Material.mat using Guid(a5ab27f24d140594197755b8c9ee7179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d183e34219ef83f9275166fa76a119') in 0.011351 seconds 
+  Import took 0.014548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.489245 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(99c326c13042f994f94a3726136ccae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(99c326c13042f994f94a3726136ccae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dd7f943dcc08a3b895de6ff10ec63f') in 0.003500 seconds 
-  Import took 0.008245 seconds .
+  Time since last request: 0.000370 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Orange.mat
+  artifactKey: Guid(5a9e6cf91cbfc1a4fbc9470cca37b97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Orange.mat using Guid(5a9e6cf91cbfc1a4fbc9470cca37b97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b39c20306883d966daed234c33fd58') in 0.011735 seconds 
+  Import took 0.014574 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.086528 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(2c96dc58015c77b438805261d2a97321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(2c96dc58015c77b438805261d2a97321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3942c5682c572c6e70c4982538fc0d37') in 0.003156 seconds 
-  Import took 0.007732 seconds .
+  Time since last request: 0.000401 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack
+  artifactKey: Guid(ac51d8b72ce431b43967e0c9ed8d6ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack using Guid(ac51d8b72ce431b43967e0c9ed8d6ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd976e326a69acf9d29ec7156c1584e') in 0.002204 seconds 
+  Import took 0.005295 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.026797 seconds.
-  path: Assets/Shaders
-  artifactKey: Guid(09cc63d56e9cffb4d8a1cdf5fa7f32a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders using Guid(09cc63d56e9cffb4d8a1cdf5fa7f32a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf9eb8d2f705b4f0c65b61a7a936bfa') in 0.003325 seconds 
-  Import took 0.007106 seconds .
+  Time since last request: 0.000414 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Yellow.mat
+  artifactKey: Guid(640dc2f025ee433489ca50d9f685de47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Yellow.mat using Guid(640dc2f025ee433489ca50d9f685de47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8d75fbdcbb1259f06969f7811b37ec') in 0.010748 seconds 
+  Import took 0.013754 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.185871 seconds.
-  path: Assets/UI
-  artifactKey: Guid(3d7c5b72836b0fc4f88a44408a0d5a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI using Guid(3d7c5b72836b0fc4f88a44408a0d5a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971f98c3fa32bb456d0c36e564fbac2a') in 0.002733 seconds 
-  Import took 0.006661 seconds .
+  Time since last request: 0.000392 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/BG.mat
+  artifactKey: Guid(5c623d53aca45c44586ec2d14fef488e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/BG.mat using Guid(5c623d53aca45c44586ec2d14fef488e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f7bee03d825831365f432c44bc89c9') in 0.010947 seconds 
+  Import took 0.013763 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Pink.mat
+  artifactKey: Guid(34a2d4fc8f422c345a4cc739f3ee3b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Pink.mat using Guid(34a2d4fc8f422c345a4cc739f3ee3b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2cf22b05f12e8c927f799853afc694') in 0.011247 seconds 
+  Import took 0.013824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Blank.mat
+  artifactKey: Guid(932bfbb102946e04796ee9ade9385119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Blank.mat using Guid(932bfbb102946e04796ee9ade9385119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465e7d5ecde61dfb8cedaa50c1f9ed51') in 0.019007 seconds 
+  Import took 0.021806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Purple.mat
+  artifactKey: Guid(152a75409221b6244be7b0063172b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Purple.mat using Guid(152a75409221b6244be7b0063172b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386e847e1cac8c10b0ea09c38b0d3df4') in 0.011116 seconds 
+  Import took 0.013558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Red.mat
+  artifactKey: Guid(6a6944f4904547e4fb039789da5fcd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Red.mat using Guid(6a6944f4904547e4fb039789da5fcd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae47a408cb0229133c7db71b31d0e9ab') in 0.011150 seconds 
+  Import took 0.013817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials/Blue.mat
+  artifactKey: Guid(d3fdd53a2b5dd904fad8d824266a4cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials/Blue.mat using Guid(d3fdd53a2b5dd904fad8d824266a4cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a27a0b7dd995019566b53b60d4c44c') in 0.016028 seconds 
+  Import took 0.018937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Materials
+  artifactKey: Guid(bde12267b5e55de4997ed6dffcbfc87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Materials using Guid(bde12267b5e55de4997ed6dffcbfc87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fb733c4cedc08baa2bd3cf3776e70a') in 0.002936 seconds 
+  Import took 0.005874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.816578 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/4 Side Diamond.fbx
+  artifactKey: Guid(a59faa6df8bd9cd4c8779604face71a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/4 Side Diamond.fbx using Guid(a59faa6df8bd9cd4c8779604face71a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3262329314b9c4b7a90264159e4a19c1') in 0.057833 seconds 
+  Import took 0.060867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemLarge.fbx
+  artifactKey: Guid(3be870bd3141f9741b70abdfb4242cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemLarge.fbx using Guid(3be870bd3141f9741b70abdfb4242cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e72b146c2ab28594cc44da210228955') in 0.019679 seconds 
+  Import took 0.022111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/Penta.fbx
+  artifactKey: Guid(34a866017115e1f4693b2328671afe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Penta.fbx using Guid(34a866017115e1f4693b2328671afe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd773a99d151355715ef2388635f854f0') in 0.024980 seconds 
+  Import took 0.027588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/Spiral.fbx
+  artifactKey: Guid(973011b81536fe2408cc13aa49700e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Spiral.fbx using Guid(973011b81536fe2408cc13aa49700e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dea3cc047614995c55f0443df877cde') in 0.018622 seconds 
+  Import took 0.021544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/SoftStar.fbx
+  artifactKey: Guid(bc0cdff0b0fdafc46bbdbda4b3717d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/SoftStar.fbx using Guid(bc0cdff0b0fdafc46bbdbda4b3717d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fac952e9fe0b10ae8cd9603f5fc54f') in 0.017028 seconds 
+  Import took 0.019954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemSmall.fbx
+  artifactKey: Guid(486351f15650ce5408452352641fc317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/SphereGemSmall.fbx using Guid(486351f15650ce5408452352641fc317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fa8d2f9cbdb2a58dfa2a949666e3b2') in 0.017524 seconds 
+  Import took 0.020569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo.fbx
+  artifactKey: Guid(911b2aca4190de843ba6fc029bf3734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo.fbx using Guid(911b2aca4190de843ba6fc029bf3734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3ad7fe6cd6186aa1facbbf2e141593') in 0.017685 seconds 
+  Import took 0.020802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/Hexgon.fbx
+  artifactKey: Guid(88298ecb4d0fcff45879b1338c17fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Hexgon.fbx using Guid(88298ecb4d0fcff45879b1338c17fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9edceb4bc9d98452631a283f2920f4f') in 0.018138 seconds 
+  Import took 0.021257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/Cuboid.fbx
+  artifactKey: Guid(d5201c54bfe2c0242acafec0421e0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Cuboid.fbx using Guid(d5201c54bfe2c0242acafec0421e0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb7e0add2fcd97371722678f4b6e355') in 0.021231 seconds 
+  Import took 0.023771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/HardStar.fbx
+  artifactKey: Guid(9d0e73dbf5dfc6e4e800cbe52651ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/HardStar.fbx using Guid(9d0e73dbf5dfc6e4e800cbe52651ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d18d7e3f6d2699234c6b3b2e06071d4') in 0.019477 seconds 
+  Import took 0.023006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/BeveledStar.fbx
+  artifactKey: Guid(fce0ecff534816b49af71ef31033c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/BeveledStar.fbx using Guid(fce0ecff534816b49af71ef31033c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782e14bd2d99d6b48c933b7e1a3c9738') in 0.019574 seconds 
+  Import took 0.022423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/5 Side Diamond.fbx
+  artifactKey: Guid(aa56074584965524093e852b02a99de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/5 Side Diamond.fbx using Guid(aa56074584965524093e852b02a99de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3059ed009b2c3f7d4f24e3a2b7a56d6b') in 0.025864 seconds 
+  Import took 0.028691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/Cubie.fbx
+  artifactKey: Guid(8b4719f3fd5020040bdbb5595fda39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Cubie.fbx using Guid(8b4719f3fd5020040bdbb5595fda39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99f271b2634abe56ff34e0c04f3eab4') in 0.028187 seconds 
+  Import took 0.031175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo5side.fbx
+  artifactKey: Guid(6217dd83a11a7df46b82193c138a8ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Diamondo5side.fbx using Guid(6217dd83a11a7df46b82193c138a8ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8510a8d4eb844b69ab2242675c672b4a') in 0.021287 seconds 
+  Import took 0.023988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/CubieBeveled.fbx
+  artifactKey: Guid(6579b708f10e00c448d8ddbc06ba95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/CubieBeveled.fbx using Guid(6579b708f10e00c448d8ddbc06ba95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2483dd09ce147274db086e701b7a35bd') in 0.023821 seconds 
+  Import took 0.026584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Models/Heart.fbx
+  artifactKey: Guid(f5e70b692f804d346a44df961b6ad5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Models/Heart.fbx using Guid(f5e70b692f804d346a44df961b6ad5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e0cb82eac96529b74185a6942b93c0') in 0.018980 seconds 
+  Import took 0.021530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.394107 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab
+  artifactKey: Guid(0ed203d298c050b49bfabe788790e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab using Guid(0ed203d298c050b49bfabe788790e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940761f96d2634dd37b3efead023ffa0') in 0.025722 seconds 
+  Import took 0.028781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cuboid.prefab
+  artifactKey: Guid(6a7274aefcc6cef4fbbfba924cc7f657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cuboid.prefab using Guid(6a7274aefcc6cef4fbbfba924cc7f657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32eecca2ae3f810f61cef5ee1bc7506c') in 0.010396 seconds 
+  Import took 0.013186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo.prefab
+  artifactKey: Guid(5c02591794acece409986647ed6329a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo.prefab using Guid(5c02591794acece409986647ed6329a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc79b4c072703d299eb3756eee03018f') in 0.011302 seconds 
+  Import took 0.014061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Hexgon.prefab
+  artifactKey: Guid(676e107eeafc5524b97910d76516565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Hexgon.prefab using Guid(676e107eeafc5524b97910d76516565d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1105523cb110967914139fd269e0894') in 0.012000 seconds 
+  Import took 0.014741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemLarge.prefab
+  artifactKey: Guid(8b40cffea67202d4bbf662b25de4c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemLarge.prefab using Guid(8b40cffea67202d4bbf662b25de4c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7477d525d0335a67a6003aa2083ba017') in 0.011593 seconds 
+  Import took 0.014923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/BeveledStar.prefab
+  artifactKey: Guid(f5c872ee906a85b46aa65e0ab683ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/BeveledStar.prefab using Guid(f5c872ee906a85b46aa65e0ab683ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0738f1dcc890b3d150c0731a2068bd5') in 0.014637 seconds 
+  Import took 0.017343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cubie.prefab
+  artifactKey: Guid(38dea0631a962ad45b71e2759e4240d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Cubie.prefab using Guid(38dea0631a962ad45b71e2759e4240d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d28d673c26abf4186e1ee29dc8fdc38') in 0.018364 seconds 
+  Import took 0.020969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemSmall.prefab
+  artifactKey: Guid(af16961524284e54491133548920258b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/SphereGemSmall.prefab using Guid(af16961524284e54491133548920258b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcba717e537e6ba10f0f4df9aea6eee') in 0.010582 seconds 
+  Import took 0.014200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Heart.prefab
+  artifactKey: Guid(5a0537415d4017c4fad7a4986f502dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Heart.prefab using Guid(5a0537415d4017c4fad7a4986f502dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da36b1bfe7b7c4ad9e0287dc7e5c1e1') in 0.014116 seconds 
+  Import took 0.016818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo5side.prefab
+  artifactKey: Guid(cd34118c604e29141afea74caecd70f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo5side.prefab using Guid(cd34118c604e29141afea74caecd70f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1432051aad5605665ef91774a94c332') in 0.012497 seconds 
+  Import took 0.015517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/5 Side Diamond.prefab
+  artifactKey: Guid(c3c0707254334a64ca8198f7486e977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/5 Side Diamond.prefab using Guid(c3c0707254334a64ca8198f7486e977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924badb3937730dd493ac32952125c2c') in 0.011307 seconds 
+  Import took 0.013892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/HardStar.prefab
+  artifactKey: Guid(c4bf8b30fce268044a786a8600922324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/HardStar.prefab using Guid(c4bf8b30fce268044a786a8600922324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b40a4fb11bf98e4dabd38476cdecd3e') in 0.011779 seconds 
+  Import took 0.014326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Penta.prefab
+  artifactKey: Guid(1a73058088a4b204bb3a13aff5c48489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Penta.prefab using Guid(1a73058088a4b204bb3a13aff5c48489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456f4bed5eae00e83574fa0a4e9f37d0') in 0.019197 seconds 
+  Import took 0.022535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/CubieBeveled.prefab
+  artifactKey: Guid(b34bf25cecb5fc24c91de3edea19cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/CubieBeveled.prefab using Guid(b34bf25cecb5fc24c91de3edea19cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6e1bd398caec14818d7826d884d805') in 0.012755 seconds 
+  Import took 0.016653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000673 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/SoftStar.prefab
+  artifactKey: Guid(8f226a393243a0141bace5fd6b60bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/SoftStar.prefab using Guid(8f226a393243a0141bace5fd6b60bafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0255a33a8a8a0aad507629b9dfc3f8c0') in 0.011564 seconds 
+  Import took 0.014524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Spiral.prefab
+  artifactKey: Guid(586acbe765df7c34385298970076297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Spiral.prefab using Guid(586acbe765df7c34385298970076297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4446255fa38422634e92b6aca12c57b6') in 0.013293 seconds 
+  Import took 0.016695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001690 seconds.
+  path: Assets/AurynSky/Gems Ultimate Pack/Prefabs/Spiral.prefab
+  artifactKey: Guid(586acbe765df7c34385298970076297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Gems Ultimate Pack/Prefabs/Spiral.prefab using Guid(586acbe765df7c34385298970076297e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4446255fa38422634e92b6aca12c57b6') in 0.009914 seconds 
+  Import took 0.013719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84690.289209 seconds.
+  path: Assets/Shaders/ProcedurniyShader.shader
+  artifactKey: Guid(34706e3712b218643a727d3bdaa1653f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/ProcedurniyShader.shader using Guid(34706e3712b218643a727d3bdaa1653f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ecc65604a5bb3ae710e74784631455') in 0.144233 seconds 
+  Import took 0.339889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.167342 seconds.
+  path: Assets/Shaders/ProcedurniyShader.shader
+  artifactKey: Guid(34706e3712b218643a727d3bdaa1653f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/ProcedurniyShader.shader using Guid(34706e3712b218643a727d3bdaa1653f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ecc65604a5bb3ae710e74784631455') in 0.004523 seconds 
+  Import took 0.007945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.396185 seconds.
+  path: Assets/Shaders/ProcedurniyShader.shader
+  artifactKey: Guid(34706e3712b218643a727d3bdaa1653f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/ProcedurniyShader.shader using Guid(34706e3712b218643a727d3bdaa1653f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b62758b82f8f84a4847a962b19793b') in 0.008342 seconds 
+  Import took 0.015009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.587350 seconds.
+  path: Assets/Materials/Procedurniy_Sky.mat
+  artifactKey: Guid(36ecbf4dfbd986c4cbbaff00cfcccd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Procedurniy_Sky.mat using Guid(36ecbf4dfbd986c4cbbaff00cfcccd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e445888a2c5f7c44a021892626fe39') in 0.265429 seconds 
+  Import took 0.269000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.321482 seconds.
+  path: Assets/Plugins/DOTween_1_2_632/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(eef9e2ed51d4c004489337b81d4be9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DOTween_1_2_632/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(eef9e2ed51d4c004489337b81d4be9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fb6e2ecdda300ae17158ba8cd07d6b') in 0.173531 seconds 
+  Import took 0.178803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Plugins/DOTween_1_2_632/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(bf97ad2b2990de940848a8345933c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DOTween_1_2_632/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(bf97ad2b2990de940848a8345933c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8f8ce9f371aae8a9f6011fa75d4c03') in 0.019181 seconds 
+  Import took 0.041800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Plugins/DOTween_1_2_632/DOTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(55b8893afb3b76e45ae8b6b2e9b85808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DOTween_1_2_632/DOTween/Editor/Imgs/Header.jpg using Guid(55b8893afb3b76e45ae8b6b2e9b85808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bcd088ded2186770c6d8ad26f05298b') in 0.017737 seconds 
+  Import took 0.020429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Plugins/DOTween_1_2_632/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(4cb59d31447e76141834d058cf17f259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DOTween_1_2_632/DOTween/Editor/Imgs/Footer_dark.png using Guid(4cb59d31447e76141834d058cf17f259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b0a45c1936b54305b7a9482c314412') in 0.014883 seconds 
+  Import took 0.019079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Plugins/DOTween_1_2_632/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(47430cef095fbf946b8e239a1dbde53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/DOTween_1_2_632/DOTween/Editor/Imgs/Footer.png using Guid(47430cef095fbf946b8e239a1dbde53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78a846410da85cf2dc5cb93e75e3065') in 0.015550 seconds 
+  Import took 0.019022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.597186 seconds.
+  path: Assets/Materials/Plane.mat
+  artifactKey: Guid(6670b025258f1be4b8797b440fbdf8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plane.mat using Guid(6670b025258f1be4b8797b440fbdf8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a709b3092d359355e398ac2a91992d') in 0.018283 seconds 
+  Import took 0.022532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.550702 seconds.
+  path: Assets/Materials/Plane.mat
+  artifactKey: Guid(6670b025258f1be4b8797b440fbdf8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plane.mat using Guid(6670b025258f1be4b8797b440fbdf8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21121e77cd0d55a25b2e43cbdaeb86ec') in 0.014936 seconds 
+  Import took 0.018173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Materials/Procedurniy_Sky.mat
+  artifactKey: Guid(36ecbf4dfbd986c4cbbaff00cfcccd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Procedurniy_Sky.mat using Guid(36ecbf4dfbd986c4cbbaff00cfcccd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e367f4e2b8ed94facf6c5e72839e431') in 0.047480 seconds 
+  Import took 0.050993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 760.509158 seconds.
+  path: Assets/Materials/Plane.mat
+  artifactKey: Guid(6670b025258f1be4b8797b440fbdf8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plane.mat using Guid(6670b025258f1be4b8797b440fbdf8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42179e1ddf69ba27d631dd1bc14a7ea3') in 0.034682 seconds 
+  Import took 0.061114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.214780 seconds.
+  path: Assets/Shaders/ProcedurniyShader.shader
+  artifactKey: Guid(34706e3712b218643a727d3bdaa1653f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/ProcedurniyShader.shader using Guid(34706e3712b218643a727d3bdaa1653f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f0db7fb59d31725dedee32229b8db4') in 0.006889 seconds 
+  Import took 0.010216 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008221 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1399ms)
+		BeginReloadAssembly (295ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (311ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.6 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 3.422100 ms (FindLiveObjects: 0.168900 ms CreateObjectMapping: 0.047700 ms MarkObjects: 3.133900 ms  DeleteObjects: 0.070400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
